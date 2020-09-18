@@ -4,25 +4,64 @@
     box-sizing: border-box;
 }
 
-
-
-h1 {
-    background-color: pink;
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    background-color: #721B65;
+    height: 30px;
+}
+
+.header {
+    background-color: #FFD868;
+}
+
+
+.content {
+    background-color: #f8615A;
+    height: 600px;
+}
+
+.featured-shoes {
+    background-color: #FFA41B;
+}
+
+.featured-teeshirt {
+    background-color: #9399FF;
+}
+
+.featured-accessories {
+    background-color: #F1C6DE;
+}
+
+.pre-order {
+    background-color: gold;
+}
+
 @media only screen and (max-width: 400px) {
-    body {
+    /* body {
         background-color: red;
-    }
+    } */
 }
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-    body {
+    /* body {
         background-color: blue;
-    }
+    } */
 }
 
 @media only screen and (min-width: 961px) {
-    body {
+    /* body {
         background-color: green;
-    }
+    } */
 }
